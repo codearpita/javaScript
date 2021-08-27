@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3.</title>
+</head>
+<body onload="studentName()">
+    <p id="demo"></p>
+    <script>
+        function studentName() 
+        {
+         var FirstName=prompt("Enter your fname");
+         var LastName=prompt("Enter your lname");
+         var City=prompt("Enter your city");
+         var Pincode=prompt("Enter your Pin-code");
+         var Area=prompt("Enter your Area");
+
+         if (FirstName!= null)
+         {
+             alert("Enter your First name" + FirstName + "Enter your Last name " + LastName);
+         }
+         document.getElementById("demo").innerHTML=
+         "My First name is " + FirstName + "<br>" +
+         "My Last name is " + LastName + "<br>" +
+         "My City is " + City + "<br>" +
+         "My Pincode is " + Pincode + "<br>" +
+         "My Area is " + Area + "<br>" 
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional & typeof operator</title>
+</head>
+<body>
+    <!-- Conditional Operators & Typeof Operators. -->
+  <h1 style="background-color: saddlebrown;">Conditional Operators & Typeof Operators.</h1>
+  <p id="con-typ"></p>
+  <script>
+      var a = 100;
+      var b = 200;
+
+      var rs1= (a>b) ? 100 : 200;
+      var rs2= (a<b) ? 100 : 200;
+      var rs3= typeof a;
+      var rs4= (typeof b == "string" ? " B is string" : "B is numaric");
+      document.getElementById("con-typ").innerHTML=
+      "a=" + a +"<br>" +
+      "b =" + b +"<br>" +
+      "((a>b) ? 100 : 200) is "+ rs1 + "<br>" +
+      "((a<b) ? 100 : 200) =>" + rs2 + "<br>" +
+      "type of a =" + rs3 + "<br>" +
+      "type of b =" + rs4;
+  </script>
+</body>
+</html>

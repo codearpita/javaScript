@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Comprision Operator -->
+    <h1 style="background-color: coral;">This is Comprision Operator.</h1>
+    <p id="comp"></p>
+    <script>
+        var a = 200;
+        var b = 300;
+
+        var equ = (a==b);
+        var not = (a!=b);
+        var les = (a<b);
+        var gret = (a>b);
+        var leseql = (a<=b);
+        var greteql = (a>=b);
+
+        document.getElementById("comp").innerHTML=
+        "a=" + a + "<br>" + "b=" + b + "<br>" +
+        "(a==b) =" + equ + "<br>"+ 
+        "(a!=b) =" + not + "<br>"+
+        "(a<b) =" + les + "<br>"+
+        "(a>b) =" + gret + "<br>"+
+        "(a<=b) =" + leseql + "<br>"+
+        "(a>=b) =" + greteql + "<br>"
+   </script>
+</body>
+</html>

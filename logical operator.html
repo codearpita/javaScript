@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Logical Operator -->
+<h1 style="background-color: purple;">Logial Operator</h1>
+<p id="dem"></p>
+  <script>
+      var a = true;
+      var b = false;
+
+      var res0 = (a && b);
+      var res1 = (a || b) ;
+      var res2 = (!(a && b)) ;
+
+    document.getElementById("dem").innerHTML=
+    "a =" + a + "<br>" +
+    "b =" + b + "<br>" +
+    "(a && b)=>" +res0+"<br>"+
+    "(a || b)=" + res1 + "<br>" +
+    "!(a && b) =" + res2;
+  </script>
+</body>
+</html>

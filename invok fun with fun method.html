@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoking function with a function method.</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        var result;
+        function myfunction(a,b) 
+        {
+          return a*b  
+        }
+          result= myfunction.call(result,100,2);
+          document.getElementById("demo").innerHTML="The result is" + " " + result;
+    </script>
+</body>
+</html>
